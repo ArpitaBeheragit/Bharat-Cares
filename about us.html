@@ -1,0 +1,178 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./styleindex.css">
+    <style>
+        .one{
+             width:90%;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             text-align: center;
+             margin:20px auto;
+             font-size: 1em;
+        }
+        body{
+            /* background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(138, 192, 216) 90%); */
+            background: #3CA55C;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .three{
+            width:90%;
+            padding :10px,20px;
+        }
+        .two{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .four{
+            width: 90%;
+            height:90%;
+            margin:0px 32px 0px 0px;
+        }
+        .five{
+            display: flex;
+            padding-top: 100px;
+            gap: 400px;
+        }
+        .explore{
+            display: flex;
+            flex-direction: row;
+            display: inline-block;
+            color: #0f0f0f;
+            background-color: #cde2c2;
+            box-shadow: -4px 4px 2px 1px rgba(82, 95, 65, 0.548);
+            border: none;
+            border-radius: 8px;
+            width: 112px;
+            height: 34px;
+            padding:12px 20 px;
+            font-size :18px;
+            cursor:pointer;
+        }
+        .Feedback{
+            display: flex;
+            flex-direction: row;
+            display: inline-block;
+            color: #131313;
+            background-color: #cde2c2;
+            box-shadow: -4px 4px 2px 1px rgba(82, 95, 65, 0.548);
+            border: none;
+            border-radius: 8px;
+            width: 112px;
+            height: 34px;
+            padding:12px 20 px;
+            font-size :18px;
+            cursor:pointer;
+
+        }
+        .saloni{
+            font-family:'Times New Roman', Times, serif;
+             text-align: left;
+        }
+        @media screen and (max-width:767px) {
+                .two{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .five{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap:5px;
+                }
+                
+            }
+            @media screen and (min-width:1024px) {
+                .two{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+                .five{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+                
+                
+            }
+            @media screen and (min-width:767px) and (max-width:1024px) {
+                .two{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+                .five{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+            }
+    </style>
+</head>
+<body>
+	<div id="lading" style="background-image: url(body-bg.jpeg);background-size: cover; background-position: center;">
+    <div id="nav">
+        <div id="logo">
+            <h1 id="logo-title">भारत Cares</h1>
+            
+            
+        </div>
+        <div id="btn-nav">
+           <a class="btn-box" href="./index.html">Home </a>
+                <a class="btn-box" href="./about us.html">About Us</a>
+                <a class="btn-box" href="./index1.jsp">Login/Signup</a>
+        </div>
+    </div>
+</div>
+<br>
+    <div class = "one">
+        <h1 style="font-size: 42px; font-weight: 600;">ABOUT US</h1><br/>
+        <h2 style="text-decoration: underline;">"THE QUALITY OF LIFE IS ABOUT THE TIME YOU INVEST IN YOURSELF"</h2>
+        <!-- <h2 style="opacity:0.1; text-decoration: underline;">"THE QUALITY OF LIFE IS ABOUT THE TIME YOU INVEST IN YOURSELF"</h2> -->
+    </div>
+    <div class = "two">
+            <div class = "three">
+            <img src="aboutus_img.avif" alt="image" width="90%" height ="90%" style="padding-left: 27px;border-radius: 8px; border-top-left-radius: 8px; border-bottom-left-radius: 8px;"/> 
+            </div>
+            <div class = "four">
+                <p class ="saloni" style="font-size:larger;">Founded in 1997 by a team of India leading cardiologists, CARE Hospitals started its journey as a 100-bedded Heart Institute with a core team of 20 cardiologists, 1 operating theatre, and 1 catheterization laboratory. 25 years later, the CARE Hospitals Group is a multi-speciality healthcare provider with 16 healthcare facilities serving 7 cities across 6 states in India.A pool of over 1400 doctors to provide you modern and world class treatment.We provide services in over 30+ medical specialities with state-of-the-art infrastructure and highest standards of care.</p>
+                 <div class = "five">
+                <button class = "explore"><a href="explore.html">Explore</a></button>
+                <button class ="Feedback"><a href="feedback.jsp">Feedback</a></button>
+            </div>
+    </div></div>
+     <br><br><br>
+    <!--<div id="gradient-footer" style="height:168px;"></div> -->   
+    <!-- <hr> -->
+    <div class="footer" style="height: 350px;background: rgb(21,21,24);
+background: linear-gradient(90deg, rgba(21,21,24,0.8184523809523809) 0%, rgba(21,21,28,1) 35%, rgba(124,143,146,1) 100%);">
+        <br><p id="p-tag"><i>Trusted Healing, Our Commitment</i></p><br>
+        <h1>भारत Cares</h1>
+        <br><br>
+        <div id="footer-middle">
+            <div id="email"><i>bharatcares@gmail.com</i></div>
+            
+            <div id="call-div">
+                <img id="clock-footer" src="clock-footer.png" alt="clock">
+                <i id="call">  +91 77508 16851</i>
+            </div>
+        </div>
+        <br>
+        <div style="padding: 0 80px 0;"><hr style="border: 1px solid rgb(53, 53, 53)"></div>
+        <br>
+        <div id="social-media">
+            <img src="logo-f-no-bg.png" alt="social media" class="sm-logo">
+            <img src="logo-i-no-bg.png" alt="social media" class="sm-logo">
+            <img src="logo-t-no-bg.png" alt="social media" class="sm-logo">
+            <img src="logo-w-no-bg.png" alt="social media" class="sm-logo">
+        </div>
+
+    </div>
+</body>
+</html>

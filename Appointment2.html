@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="title-icon-no-bg.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style (2).css">
+    <title>Consultation</title>
+    <style>
+        body{
+
+            background: rgb(176,199,59);
+            background: linear-gradient(45deg, rgba(176,199,59,1) 26%, rgba(142,221,76,1) 51%, rgba(34,125,7,1) 94%);
+            font-family: "Times New Roman", Times, serif;
+        }
+        .text{
+            width:100%;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             text-align: center;
+             margin:20px auto;
+             /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+        }
+        .one {
+              
+           
+             display:inline-block;
+             margin-left:auto;
+             margin-right:auto;
+             text-align: left;  
+        }
+        div.form{
+            display: block;
+            text-align: center;
+        
+        }
+        .two{
+            width:90%;
+             display:flex;
+             justify-content: center;
+             
+             align-items: center;
+             flex-direction: column;
+             text-align: center;
+             margin:20px auto;
+        }
+        .saloni{
+            justify-content: center;
+            display: flex;
+            
+            margin: 50px 100px 50px 100px;
+            padding-bottom: 50px;
+            border :3px soild blue;
+            
+            background: rgb(14,52,18);
+            background: linear-gradient(45deg, rgba(14,52,18,1) 15%, rgba(28,40,17,1) 44%, rgba(54,59,24,1) 47%, rgba(29,75,15,1) 94%);
+            border-radius: 2%;   
+        }
+        .name{
+            
+            gap:1000px;
+            color: #ffffff;
+        }
+        .name1{
+            color: #ffffff;
+
+        }
+        .img{
+            margin-bottom: 20px;
+        }
+        .btn{
+            background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+ /* font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;*/
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+        }
+        .btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+        .contact{
+            color: #ffffff;
+        
+        }
+        .doc{
+            color: #ffffff;
+             
+
+          }
+        .date{ 
+            color: #ffffff;
+        }
+        .time{
+            color: #ffffff;
+            
+        }
+        .symptons{
+            color: #ffffff;
+        }  
+        .col{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            margin:50px 0px 0px 0px;   
+            padding-top: 40px;
+            gap:30px;
+        }
+        .imag{
+            margin:70px 0px 50px 0px;
+        }
+        .form-control{
+            background-color: #fff; height: 50px; color: #191a1e; border: none; font-size: 16px; font-weight: 400; -webkit-box-shadow: none; box-shadow: none; border-radius: 40px; padding: 0 25px;font-family: "Times New Roman", Times, serif; }
+            .register hr{border-top: 1px solid #ffffff;
+        }
+        @media screen and (max-width:767px) {
+                .col{
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+                }
+                
+              .form-control{
+                font-size:4px;
+                font-weight:100px;
+              }
+                
+            }
+            @media screen and (min-width:1024px) {
+                .col{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
+                .five{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }    
+            }
+            @media screen and (min-width:767px) and (max-width:1024px) {
+                .col{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    
+                }
+                .five{
+                    display: flex;
+                    flex-wrap: nowrap;
+                }  
+            }
+            @media screen and (max-width:910px){
+                .imag img{
+                    width:85%;
+                }
+                .logo h1{
+                    font-size:45px ;
+                }
+
+            }
+    </style>
+</head>
+
+    <body>
+        <div id="lading" style="background-size: cover; background-position: center;">
+            <div id="nav">
+                <div id="logo">
+                    <h1 id="logo-title">भारत Cares</h1>
+                </div>
+                <div id="btn-nav">
+                    <a class="btn-box" href="./indexdup.html">Home </a>
+                    <a class="btn-box" href="./about us.html">About us </a>
+                    <a class="btn-box" href="./Appointment2.html">Appointments</a>
+                    <a class="btn-box" href="./patientRegs.html">Patient Details</a>
+                    <a class="btn-box" href="./Ptracker.jsp">Tracker</a>
+                    <a class="btn-box" href="./index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    <div class="main">
+              <h1 style="font-size: xx-large" class="text">
+                  Appointment Form
+              </h1>
+              <div class = "saloni">
+                <div class="col">
+                    <div class ="imag" >
+                        <img src="appoint.webp" alt="appointment">
+                    </div>
+              <form class ="one" action="appointment.jsp" method="post">
+                <div class =  "name">
+                <label style="font-size: x-large" ><b>FIRST NAME</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="patient-name" name="fname" class="form-control" placeholder="Enter your first Name" required><br><br>
+                </div></br>
+                <div class =  "name1">
+                     <label style="font-size: x-large" ><b>LAST NAME</b></b></bLast></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="text" id="patient-name1" name="lname" class="form-control" placeholder="Enter your last Name" required ><br><br>
+                    </div></br>
+                <div class="contact">
+                <label style="font-size: x-large" class="ta" ><b>CONTACT</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="contact" class="form-control" name="phone" placeholder="Enter your phone number" required ><br><br>
+                </div></br>
+                <div class="doc">               
+                 <label style="font-size: x-large" class="ta" ><b>DOCTORS</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <select  id="docs"  title="Doctors" class="form-control" name="docname"><br><br>
+                    <option value = "--select--">Select</option>
+                    <option value ="Dr.Manoj Kumar" class="form-control">Dr.Manoj Kumar</option>
+                    <option value = "Dr.Sarita" class="form-control">Dr.Sarita</option>
+                    <option value = "Dr.Sudhanshu" class="form-control">Dr.Sudhanshu</option>
+                    <option value = "Dr.Kirti" class="form-control">Dr.Kirti</option>
+                    <option value = "Dr.Sakshi" class="form-control">Dr.Sakshi</option>
+                  </select>
+                </div><br><br>
+                <div class="date">
+                <label style="font-size: x-large" class="ta"><b>DATE</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" id="date" class="form-control" name ="date"placeholder="date" required><br><br>
+                </div></br>
+                <div class="time">
+                 <label style="font-size: x-large" class="ta" ><b>TIME</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="time"id="time"class="form-control"name="time" placeholder="time" required><br><br>
+                </div></br>
+                <div class="symptons">
+                <label style="font-size: x-large" class="ta"  ><b>SYMPTOMS</b></b></bFirst></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea id="symptoms" class="form-control" name="symptoms"required></textarea><br><br>
+                </div></br>     
+              </div>
+              </div>
+              <div class="two">
+                <button  class="btn" type="submit">
+                    <b>Get Appointment</b>
+                </button>
+            </div> 
+            </form>
+        </div>  
+</body>
+
+</html>
+
